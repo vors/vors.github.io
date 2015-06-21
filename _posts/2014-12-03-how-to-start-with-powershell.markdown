@@ -28,19 +28,19 @@ They are mostly work as you expect!
 
 `ls` is an alias for command `Get-ChildItem`.
 
-{% img /images/ps-demo/ls.gif ls %}
+![ls](/images/ps-demo/ls.gif)
 
 `man` is an alias for command `Get-Help`.
 
-{% img /images/ps-demo/man.gif man %}
+![man](/images/ps-demo/man.gif)
 
 `cat` is an alias for command `Get-Content`.
 
-{% img /images/ps-demo/cat.gif cat %}
+![cat](/images/ps-demo/cat.gif)
 
 `kill` is an alias for command `Stop-Process`.
 
-{% img /images/ps-demo/kill.gif kill %}
+![kill](/images/ps-demo/kill.gif)
 
 
 
@@ -60,7 +60,7 @@ In this examle, I looked for a command to manage `bitlocker` (disk encryption on
 
 Then I used intellisense to explore and specify command parameters.
 
-{% img /images/ps-demo/explore-bitlocker.gif Explore available commands %}
+![Explore available commands](/images/ps-demo/explore-bitlocker.gif)
 
 ###Explore available methods and properties in the pipeline
 
@@ -69,7 +69,7 @@ The basic idea: you **pass objects** (in fact .NET objects), **not text streams*
 Then you can call methods and properties on objects passed in the pipeline. 
 PowerShell can figure out a returned type of a command and use it to provide intellisense below in the pipeline.
 
-{% img /images/ps-demo/explore-get-process-pipeline.gif Explore available methods and properties in the pipeline %}
+![Explore available methods and properties in the pipeline](/images/ps-demo/explore-get-process-pipeline.gif)
 
 `$_` variable represents current object. 
 See `man about_Automatic_Variables` for details. 
@@ -78,14 +78,14 @@ See `man about_Automatic_Variables` for details.
 
 Explore, get and set env variables from PowerShell.
 
-{% img /images/ps-demo/explore-env.gif Explore environment variables %}
+![Explore environment variables](/images/ps-demo/explore-env.gif)
 
 ##Jump-Location
 
 [Install Jump-Location](https://github.com/tkellogg/Jump-Location) (autojump for PS) and navigate faster on the file-system. 
 Seriously, I don’t understand how I lived without it.
 
-{% img /images/ps-demo/j.gif Jump-Location %}
+![Jump-Location](/images/ps-demo/j.gif)
 
 
 ##Do .NET calls directly from PowerShell
@@ -95,7 +95,7 @@ PowerShell use .NET (CLR and DLR) and well-integrated with it.
 Here is a quick demo for a bug in System.Type.GetType(String), that I explored recently.
 ``System.Type.GetType("System.Func`10")`` must return a generic type ``Func`10``, but it returns `null`. 
 
-{% img /images/ps-demo/GetType.gif GetType %}
+![GetType](/images/ps-demo/GetType.gif)
 
 Look how simple you can call .NET APIs! 
 Again, you have intellisense for them. 

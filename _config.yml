@@ -1,0 +1,14 @@
+# Site settings
+title: Yet another PowerShell blog
+email: xvorsx@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Rambling about .NET, software development, PowerShell and live.
+  Seattle, WA.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vors.github.io" # the base hostname & protocol for your site
+twitter_username: xvorsx
+github_username:  vors
+author_name: "Sergei Vorobev"
+
+# Build settings
+markdown: kramdown

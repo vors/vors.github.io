@@ -109,7 +109,7 @@ you can create a `.lnk` file in your `~\AppData\Roaming\Microsoft\Windows\Start 
 
 On my system "Target" is `"C:\Program Files\AutoHotkey\AutoHotkey.exe" C:\dev\AutoHotkey\WindowsOnMac.ahk`
 
-![AutoHotkey lnk property](/images/WindowsOnMac/AutoHotkeyLnk.png)
+![AutoHotkey lnk property](/images/WindowsOnMac/AutoHotKeyLnk.png)
 
 **Voilà!** Feel free to customize more key combinations. 
 

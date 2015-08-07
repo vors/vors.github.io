@@ -9,3 +9,6 @@ categories: [powershell]
 # Hack-AllTheThings
 
 I'm trying out github as a bloging platform, without actually builing octopress web site locally.
+If you are reading it, then it works.
+
+Check out later, when I finish this post.

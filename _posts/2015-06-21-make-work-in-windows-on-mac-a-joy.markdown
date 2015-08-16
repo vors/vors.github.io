@@ -129,6 +129,13 @@ So I cosider it worth mentioning.
 Just be awere that it doesn't fully work in Google chrome (only Firefox and IE 11), which is Google's fault.
 I found that IE 11 with TrackPad++ provides pretty good scrolling expirience. Not as good as native Apple's Safari, but a decient one.
 
+**Update:**
+I take back my recomendation for **TrackPad++**.
+It's cumbersome, annoying and doesn't provide much value.
+All you really need is a way to [**reverse trackpad scrolling direction**](http://superuser.com/questions/310681/inverting-direction-of-mouse-scroll-wheel)
+
+    Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 
+
 Conclusion
 ---------------------
 

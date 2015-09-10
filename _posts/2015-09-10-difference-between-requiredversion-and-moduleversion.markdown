@@ -6,7 +6,7 @@ comments: true
 categories: [powershell, dsc]
 ---
 
-# PowerShell modules versioning
+## PowerShell modules versioning
 
 Modules are the way to package logic in PowerShell. 
 Simple.
@@ -26,7 +26,7 @@ It can be one of two things:
    1. `@{ModuleName = "xExchange"; ModuleVersion = "1.1.0.0"}`
    1. `@{ModuleName = "xExchange"; RequiredVersion = "1.1.0.0"}`
 
-# Difference between RequiredVersion and ModuleVersion
+## RequiredVersion vs ModuleVersion
 
 Why do we have two of them and what's the difference?
 Let's get both modules from [PowerShellGallery](http://www.powershellgallery.com/)

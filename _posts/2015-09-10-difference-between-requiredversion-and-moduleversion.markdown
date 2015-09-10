@@ -103,4 +103,4 @@ Manifest   1.2.0.0    xExchange
 
 **RequiredVersion** really sticks to a **particular version**. 
 
-**ModuleVersion** returns all version that are **equal or higher**.
+**ModuleVersion** returns all versions that are **equal or higher**.

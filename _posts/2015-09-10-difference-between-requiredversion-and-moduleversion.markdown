@@ -29,6 +29,14 @@ It can be one of two things:
 ## RequiredVersion vs ModuleVersion
 
 Why do we have two of them and what's the difference?
+I found [some info](https://technet.microsoft.com/en-us/%5Clibrary/Hh857339.aspx) in a release notes
+
+> Windows PowerShell 5.0 implements support for multiple versions of a single Windows PowerShell module in the same folder in $PSModulePath. A RequiredVersion property has been added to the ModuleSpecification class to help you get the desired version of a module; this property is mutually-exclusive with the ModuleVersion property. RequiredVersion is now supported as part of the value of the FullyQualifiedName parameter of the Get-Module, Import-Module, and Remove-Module cmdlets.
+
+But it doesn't explain the difference, so we can find out from an experement.
+
+### Experiment
+
 Let's get both modules from [PowerShellGallery](http://www.powershellgallery.com/)
 
 ```powershell
@@ -73,8 +81,8 @@ ModuleType Version    Name                                ExportedCommands
 Manifest   1.1.0.0    xExchange      
 
 ```
-
-Interesting, let's try to query version '1.2.0.0'
+The output is different: **ModuleVersion** query returns both 1.1.0.0 and 1.2.0.0.
+Let's try to query version '1.2.0.0'
 
 ```text
 PS> Get-Module -ListAvailable -FullyQualifiedName @{ModuleName = 'xExchange'; ModuleVersion = "1.2.0.0"}
@@ -98,6 +106,8 @@ ModuleType Version    Name                                ExportedCommands
 ---------- -------    ----                                ----------------                              
 Manifest   1.2.0.0    xExchange      
 ```
+
+Now query return the same results.
 
 ## Conclusion
 

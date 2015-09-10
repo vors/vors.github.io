@@ -99,4 +99,4 @@ ModuleType Version    Name                                ExportedCommands
 Manifest   1.2.0.0    xExchange      
 ```
 
-As you can see **RequiredVersion really sticks to particular version** and **ModuleVersion returns all version that are equal or higher**.
+As you can see **RequiredVersion** really sticks to a **particular version** and **ModuleVersion** returns all version that are **equal or higher**.

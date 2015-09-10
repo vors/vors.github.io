@@ -33,7 +33,7 @@ I found [some info](https://technet.microsoft.com/en-us/%5Clibrary/Hh857339.aspx
 
 > Windows PowerShell 5.0 implements support for multiple versions of a single Windows PowerShell module in the same folder in $PSModulePath. A RequiredVersion property has been added to the ModuleSpecification class to help you get the desired version of a module; this property is mutually-exclusive with the ModuleVersion property. RequiredVersion is now supported as part of the value of the FullyQualifiedName parameter of the Get-Module, Import-Module, and Remove-Module cmdlets.
 
-But it doesn't explain the difference, so we can find out from an experement.
+It doesn't explain the difference, but we can find it out from an experement.
 
 ### Experiment
 

@@ -12,7 +12,7 @@ Modules are the way to package logic in PowerShell.
 Simple.
 Modules are shared, published to the gallery, developed and naturually evolve.
 Which means that they can have breaking changes.
-You don't want them in your production do you?
+You don't want them in your production, do you?
 
 ## ModuleSpecification
 

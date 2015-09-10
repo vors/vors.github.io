@@ -12,11 +12,11 @@ Modules are the way to package logic in PowerShell.
 Simple.
 Modules are shared, published to the gallery, developed and naturually evolve.
 Which means that they can have breaking changes.
-You don't want them in your production, do you?
+You don't want them in production, do you?
 
 ## ModuleSpecification
 
-When you reference to a module in some way (i.e. `Get-Module`, `Import-Module`, `Import-DscResouce -ModuleName`, `Get-DscResource -Module`)
+When you reference a module somehow (i.e. `Get-Module`, `Import-Module`, `Import-DscResouce -ModuleName`, `Get-DscResource -Module`)
 you can provide **FullyQuilifiedName** or **ModuleSpecification**.
 
 It can be one of two things:

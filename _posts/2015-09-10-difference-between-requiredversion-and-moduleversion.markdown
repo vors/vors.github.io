@@ -111,7 +111,7 @@ ModuleType Version    Name                                ExportedCommands
 Manifest   1.2.0.0    xExchange      
 ~~~
 
-Now query return the same results.
+Now queries return the same results.
 
 ## Conclusion
 

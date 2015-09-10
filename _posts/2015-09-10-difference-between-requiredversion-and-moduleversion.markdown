@@ -6,9 +6,6 @@ comments: true
 categories: [powershell, dsc]
 ---
 
-Difference between RequiredVersion and ModuleVersion
---------------------
-
 ## PowerShell modules versioning
 
 Modules are the way to package logic in PowerShell. 

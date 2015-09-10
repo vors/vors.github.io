@@ -14,6 +14,9 @@ Modules are shared, published to the gallery, developed and naturually evolve.
 Which means that they can have breaking changes.
 You don't want them in production, do you?
 
+To avoid this possibility, you should be able to **explicitly** specify version of used module.
+How to do that?
+
 ## ModuleSpecification
 
 When you reference a module somehow (i.e. `Get-Module`, `Import-Module`, `Import-DscResouce -ModuleName`, `Get-DscResource -Module`)

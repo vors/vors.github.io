@@ -51,9 +51,7 @@ Now, let try all mentioned variations
 ```
 PS> Get-Module -ListAvailable -FullyQualifiedName 'xExchange'
 
-
-    Directory: C:\Program Files\WindowsPowerShell\Modules
-
+Directory: C:\Program Files\WindowsPowerShell\Modules
 
 ModuleType Version    Name                                ExportedCommands                              
 ---------- -------    ----                                ----------------                              
@@ -62,9 +60,7 @@ Manifest   1.1.0.0    xExchange
 
 PS> Get-Module -ListAvailable -FullyQualifiedName @{ModuleName = 'xExchange'; ModuleVersion = "1.1.0.0"}
 
-
-    Directory: C:\Program Files\WindowsPowerShell\Modules
-
+Directory: C:\Program Files\WindowsPowerShell\Modules
 
 ModuleType Version    Name                                ExportedCommands                              
 ---------- -------    ----                                ----------------                              
@@ -72,18 +68,17 @@ Manifest   1.2.0.0    xExchange
 Manifest   1.1.0.0    xExchange                                                                         
 
 
-
 PS> Get-Module -ListAvailable -FullyQualifiedName @{ModuleName = 'xExchange'; RequiredVersion = "1.1.0.0"}
 
 
-    Directory: C:\Program Files\WindowsPowerShell\Modules
-
+Directory: C:\Program Files\WindowsPowerShell\Modules
 
 ModuleType Version    Name                                ExportedCommands                              
 ---------- -------    ----                                ----------------                              
 Manifest   1.1.0.0    xExchange      
 
 ```
+
 The output is different: **ModuleVersion** query returns both 1.1.0.0 and 1.2.0.0.
 Let's try to query version '1.2.0.0'
 

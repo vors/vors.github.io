@@ -51,7 +51,7 @@ Now, let try all mentioned variations
 ```
 PS> Get-Module -ListAvailable -FullyQualifiedName 'xExchange'
 
-Directory: C:\Program Files\WindowsPowerShell\Modules
+  Directory: C:\Program Files\WindowsPowerShell\Modules
 
 ModuleType Version    Name                                ExportedCommands                              
 ---------- -------    ----                                ----------------                              
@@ -60,7 +60,7 @@ Manifest   1.1.0.0    xExchange
 
 PS> Get-Module -ListAvailable -FullyQualifiedName @{ModuleName = 'xExchange'; ModuleVersion = "1.1.0.0"}
 
-Directory: C:\Program Files\WindowsPowerShell\Modules
+  Directory: C:\Program Files\WindowsPowerShell\Modules
 
 ModuleType Version    Name                                ExportedCommands                              
 ---------- -------    ----                                ----------------                              
@@ -70,8 +70,7 @@ Manifest   1.1.0.0    xExchange
 
 PS> Get-Module -ListAvailable -FullyQualifiedName @{ModuleName = 'xExchange'; RequiredVersion = "1.1.0.0"}
 
-
-Directory: C:\Program Files\WindowsPowerShell\Modules
+  Directory: C:\Program Files\WindowsPowerShell\Modules
 
 ModuleType Version    Name                                ExportedCommands                              
 ---------- -------    ----                                ----------------                              
@@ -86,8 +85,7 @@ Let's try to query version '1.2.0.0'
 PS> Get-Module -ListAvailable -FullyQualifiedName @{ModuleName = 'xExchange'; ModuleVersion = "1.2.0.0"}
 
 
-    Directory: C:\Program Files\WindowsPowerShell\Modules
-
+  Directory: C:\Program Files\WindowsPowerShell\Modules
 
 ModuleType Version    Name                                ExportedCommands                              
 ---------- -------    ----                                ----------------                              
@@ -96,9 +94,7 @@ Manifest   1.2.0.0    xExchange
 
 PS> Get-Module -ListAvailable -FullyQualifiedName @{ModuleName = 'xExchange'; RequiredVersion = "1.2.0.0"}
 
-
-    Directory: C:\Program Files\WindowsPowerShell\Modules
-
+  Directory: C:\Program Files\WindowsPowerShell\Modules
 
 ModuleType Version    Name                                ExportedCommands                              
 ---------- -------    ----                                ----------------                              

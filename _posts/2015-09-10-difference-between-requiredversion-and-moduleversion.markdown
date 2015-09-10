@@ -21,8 +21,8 @@ you can provide **FullyQuilifiedName** or **ModuleSpecification**.
 
 It can be one of two things:
 
-1. *string*, i.e. `"xExchange"` ([xExchange](https://github.com/PowerShell/xExchange))
-1. *hashtable* with module name and version.
+1. **[string]**, i.e. `"xExchange"` ([xExchange](https://github.com/PowerShell/xExchange))
+1. **[hashtable]** with module name and version.
    1. `@{ModuleName = "xExchange"; ModuleVersion = "1.1.0.0"}`
    1. `@{ModuleName = "xExchange"; RequiredVersion = "1.1.0.0"}`
 

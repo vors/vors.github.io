@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Difference between RequiredVersion and ModuleVersion"
-date:2015-09-10 00:00:00 -0700
+date: 2015-09-10 00:00:00 -0700
 comments: true
 categories: [powershell, dsc]
 ---

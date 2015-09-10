@@ -46,7 +46,7 @@ Let's get both modules from [PowerShellGallery](http://www.powershellgallery.com
 
 Now, let try all mentioned variations
 
-
+~~~
    PS> Get-Module -ListAvailable -FullyQualifiedName 'xExchange'
    
      Directory: C:\Program Files\WindowsPowerShell\Modules
@@ -73,6 +73,7 @@ Now, let try all mentioned variations
    ModuleType Version    Name                                ExportedCommands                              
    ---------- -------    ----                                ----------------                              
    Manifest   1.1.0.0    xExchange      
+~~~
 
 The output is different: **ModuleVersion** query returns both 1.1.0.0 and 1.2.0.0.
 Let's try to query version '1.2.0.0'

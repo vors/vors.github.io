@@ -48,7 +48,7 @@ Find-Module xExchange -AllVersions | ? {$_.Version -eq '1.1.0.0' -or $_.Version 
 
 Now, let try all mentioned variations
 
-```text
+```
 PS> Get-Module -ListAvailable -FullyQualifiedName 'xExchange'
 
 
@@ -87,7 +87,7 @@ Manifest   1.1.0.0    xExchange
 The output is different: **ModuleVersion** query returns both 1.1.0.0 and 1.2.0.0.
 Let's try to query version '1.2.0.0'
 
-```text
+```
 PS> Get-Module -ListAvailable -FullyQualifiedName @{ModuleName = 'xExchange'; ModuleVersion = "1.2.0.0"}
 
 

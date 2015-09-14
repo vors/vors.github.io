@@ -14,7 +14,7 @@ when you call `'abc'.Substring(1)` it creates a new object to represent `bc` and
 You can modify strings with reflection.
 
 **Note:** strings are immutable for a very good reason and you don't usually want to do that.
-I peek this example for a purely issultrative reasons.
+I peek this example just to illustrate the technic.
 
 ## Alternate string via reflection
 
@@ -32,6 +32,8 @@ $s
 ~~~
 
 This repeating `System.Reflection.BindingFlags` is quite verbose.
+
+## Write it shorter with `using`
 
 `using namespace` allows us write it shorter
 

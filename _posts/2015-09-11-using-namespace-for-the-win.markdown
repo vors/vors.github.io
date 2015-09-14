@@ -25,7 +25,8 @@ This code creates `System.String` object and change it's length to access some r
 
 ~~~powershell
 $s = 'abc'
-$handle = [string].GetField('m_stringLength', [System.Reflection.BindingFlags]::NonPublic -bor ` [System.Reflection.BindingFlags]::Instance)
+$handle = [string].GetField('m_stringLength', [System.Reflection.BindingFlags]::NonPublic -bor ` 
+                                              [System.Reflection.BindingFlags]::Instance)
 $handle.SetValue($s, 20)
 $s
 # Output:
@@ -36,10 +37,34 @@ This repeating `System.Reflection.BindingFlags` forced me break line for readabi
 
 ## Write it shorter with `using namespace`
 
+PowerShell v5 introduce `using namespace` construct that you can add to the beginning of a script.
+It allows you referene .NET types by the short name (exectly the same as C# `using`).
+
 ~~~powershell
 using namespace System.Reflection
 $s = 'abc'
 $handle = [string].GetField('m_stringLength', [BindingFlags]::NonPublic -bor [BindingFlags]::Instance)
 $handle.SetValue($s, 20)
-$s
+# Output:
+# abc       櫠奙翹 洘 
 ~~~
+
+That's how you can save a lot of text, working with .NET APIs.
+
+## Poke module
+
+When I talk about reflection and PowerShell, I cannot avoid mentioning module [poke](https://github.com/oising/poke) module by [@oising](https://github.com/oising).
+It's pure awesome.
+Here is how I would rewrite the same code with **poke**
+
+~~~powershell
+Import-Module poke
+$s = 'abc'
+$pokedS = $s | peek
+$pokedS.m_stringLength = 20
+$s
+# Output:
+# abc       櫠奙翹 洘 
+~~~
+
+

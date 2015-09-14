@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "using namespace For The Win"
-date: 2015-09-11 00:00:00 -0700
+date: 2015-09-13 00:00:00 -0700
 comments: true
-categories: [powershell, dsc]
+categories: [powershell]
 ---
 
 PowerShell works pretty smooth with .NET from day one. 

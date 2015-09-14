@@ -19,11 +19,24 @@ I peek this example for a purely issultrative reasons.
 
 ## Alternate string via reflection
 
-If you want to call a private method, you are gettig `System.Reflection.RuntimeMethodInfo` or something similar, then you call `Invoke` and pass some parameters.
-
-For
-
+Here is a code, that creates `[string]` object and change it's length to access some random bytes from the heap.
 ~~~powershell
-[System.GC].GetMethod('_AddMemoryPressure', [System.Reflection.BindingFlags]::NonPublic -bor [System.Reflection.BindingFlags]::Static).Invoke($null, [uint64]1)
+$s = 'abc'
+$handle = [string].GetField('m_stringLength', [System.Reflection.BindingFlags]::NonPublic -bor [System.Reflection.BindingFlags]::Instance)
+$handle.SetValue($s, 20)
+$s
+# Output:
+# abc       櫠奙翹 洘 
 ~~~
 
+This repeating `System.Reflection.BindingFlags` is quite verbose.
+
+`using namespace` allows us write it shorter
+
+~~~powershell
+using namespace System.Reflection
+$s = 'abc'
+$handle = [string].GetField('m_stringLength', [BindingFlags]::NonPublic -bor [BindingFlags]::Instance)
+$handle.SetValue($s, 20)
+$s
+~~~

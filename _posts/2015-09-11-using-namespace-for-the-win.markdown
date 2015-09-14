@@ -6,7 +6,8 @@ comments: true
 categories: [powershell, dsc]
 ---
 
-PowerShell works pretty smooth with .NET from day 1. Calling .NET APIs was pretty [verbose](http://serverfault.com/questions/74744/using-namespaces-in-powershell) excercise.
+PowerShell works pretty smooth with .NET from day one. 
+But calling .NET APIs was pretty [verbose](http://serverfault.com/questions/74744/using-namespaces-in-powershell) excercise.
 
 To show that let's try to call some .NET reflection API.
 

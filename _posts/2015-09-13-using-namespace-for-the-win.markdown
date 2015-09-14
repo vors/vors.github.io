@@ -18,7 +18,7 @@ when you call `'abc'.Substring(1)` it creates a new object to represent `bc` and
 You can modify strings with reflection.
 
 Strings are immutable for a very good reason and you don't usually want to do that.
-I peek this example just to illustrate the technic.
+I peek this example just to show the technic.
 
 This code creates `System.String` object and change it's length to access some random bytes from the heap.
 

@@ -9,7 +9,7 @@ categories: [powershell]
 PowerShell works smooth with .NET from day one. 
 But calling .NET APIs was pretty [verbose](http://serverfault.com/questions/74744/using-namespaces-in-powershell) excercise.
 
-To show that let's try to call some .NET reflection API.
+To illustrate my point, let's try to call some .NET reflection API.
 
 ## Alternate string via reflection
 

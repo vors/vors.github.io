@@ -55,7 +55,7 @@ That's how you can save a lot of text, working with .NET APIs.
 ## Poke module
 
 When I talk about reflection and PowerShell, I cannot avoid mentioning [poke](https://github.com/oising/poke) module by [@oising](https://github.com/oising).
-It's pure awesome: you can call and **explore** private members as easy as public one.
+It's pure awesome: you can call and **explore** private members as easy as public ones.
 Here is how I would rewrite the same code with **poke**
 
 ~~~powershell

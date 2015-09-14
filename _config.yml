@@ -12,3 +12,7 @@ author_name: "Sergei Vorobev"
 
 # Build settings
 markdown: kramdown
+
+# Analytics
+google_universal_analytics: UA-67557006-1
+google_universal_analytics_cookiedomain: auto

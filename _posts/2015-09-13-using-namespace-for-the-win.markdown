@@ -36,7 +36,7 @@ $s
 
 This repeating `System.Reflection.BindingFlags` forced me break line for readability.
 
-## Write it shorter with `using namespace`
+## Write it shorter with 'using namespace'
 
 PowerShell v5 introduce `using namespace` construct that you can add to the beginning of a script.
 It allows you reference .NET types by the short name (exectly the same as C# `using`).

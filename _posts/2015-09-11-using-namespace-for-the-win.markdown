@@ -17,7 +17,7 @@ To show that let's try to call some .NET reflection API.
 when you call `'abc'.Substring(1)` it creates a new object to represent `bc` and so on.
 You can modify strings with reflection.
 
-**Note:** strings are immutable for a very good reason and you don't usually want to do that.
+Strings are immutable for a very good reason and you don't usually want to do that.
 I peek this example just to illustrate the technic.
 
 This code creates `System.String` object and change it's length to access some random bytes from the heap.
@@ -39,7 +39,7 @@ This repeating `System.Reflection.BindingFlags` forced me break line for readabi
 ## Write it shorter with `using namespace`
 
 PowerShell v5 introduce `using namespace` construct that you can add to the beginning of a script.
-It allows you referene .NET types by the short name (exectly the same as C# `using`).
+It allows you reference .NET types by the short name (exectly the same as C# `using`).
 
 ~~~powershell
 using namespace System.Reflection
@@ -54,7 +54,7 @@ That's how you can save a lot of text, working with .NET APIs.
 
 ## Poke module
 
-When I talk about reflection and PowerShell, I cannot avoid mentioning module [poke](https://github.com/oising/poke) module by [@oising](https://github.com/oising).
+When I talk about reflection and PowerShell, I cannot avoid mentioning [poke](https://github.com/oising/poke) module by [@oising](https://github.com/oising).
 It's pure awesome.
 Here is how I would rewrite the same code with **poke**
 

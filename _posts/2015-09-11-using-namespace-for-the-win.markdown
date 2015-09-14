@@ -25,14 +25,14 @@ This code creates `System.String` object and change it's length to access some r
 
 ~~~powershell
 $s = 'abc'
-$handle = [string].GetField('m_stringLength', [System.Reflection.BindingFlags]::NonPublic -bor [System.Reflection.BindingFlags]::Instance)
+$handle = [string].GetField('m_stringLength', [System.Reflection.BindingFlags]::NonPublic -bor ` [System.Reflection.BindingFlags]::Instance)
 $handle.SetValue($s, 20)
 $s
 # Output:
 # abc       櫠奙翹 洘 
 ~~~
 
-This repeating `System.Reflection.BindingFlags` is quite verbose.
+This repeating `System.Reflection.BindingFlags` forced me break line for readability.
 
 ## Write it shorter with `using namespace`
 

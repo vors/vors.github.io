@@ -7,18 +7,18 @@ categories: [powershell]
 ---
 
 PowerShell works smooth with .NET from day one. 
-But calling .NET APIs was pretty [verbose](http://serverfault.com/questions/74744/using-namespaces-in-powershell) excercise.
+But calling .NET APIs was pretty [verbose](http://serverfault.com/questions/74744/using-namespaces-in-powershell) exercise.
 
 To illustrate my point, let's try to call some .NET reflection API.
 
 ## Alternate string via reflection
 
-`System.String` is generally imutable in .NET:
-when you call `'abc'.Substring(1)` it creates a new object to represent `bc` and so on.
+`System.String` is generally immutable in .NET:
+when you call `'abc'.Substring(1)` it creates a new object to represent `'bc'` and so on.
 You can modify strings with reflection.
 
 Strings are immutable for a very good reason and you don't usually want to do that.
-I peek this example just to show the technic.
+I peek this example just to show the technique.
 
 This code creates `System.String` object and change it's length to access some random bytes from the heap.
 
@@ -39,7 +39,7 @@ This repeating `System.Reflection.BindingFlags` forced me break line for readabi
 ## Write it shorter with 'using namespace'
 
 PowerShell v5 introduce `using namespace` construct that you can add to the beginning of a script.
-It allows you reference .NET types by the short name (exectly the same as C# `using`).
+It allows you reference .NET types by the short name (exactly the same as C# `using`).
 
 ~~~powershell
 using namespace System.Reflection

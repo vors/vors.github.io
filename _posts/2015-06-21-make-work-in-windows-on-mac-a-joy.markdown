@@ -93,15 +93,20 @@ Not your archetypal [Windows ecosystem helper application](http://trackpad.power
 
 I wrote this simple `.ahk` script to remap `Alt` `Tab` and `Alt` `F4`
 
-	; Command remapped to Left Control in Registry
-	 
-	; Remap Command + Tab to be Alt + Tab
+	; 'Command' remapped to 'Left Control' in Registry
+	; https://sharpkeys.codeplex.com/
+	
+	; Remap 'Command' + 'Tab' to be 'Alt' + 'Tab'
 	; this line require 'Run with UI Access': 
 	; http://www.autohotkey.com/board/topic/70449-enable-interaction-with-administrative-programs/
 	LControl & Tab::AltTab 
-	 
-	; Remap Command + Q to Alt + F4
+	
+	; Remap 'Command' + 'Q' to 'Alt' + 'F4'
 	LControl & q::Send !{f4}
+	
+	; Remap 'Command' + 'Space' to 'Win' + 'Space' 
+	; Change language layout in Win 10
+	LControl & Space::Send #{Space}
 
 It turns out that to rebind `Alt` `Tab` on Windows 8.1 you need [a little bit more ceremony](http://www.autohotkey.com/board/topic/70449-enable-interaction-with-administrative-programs/).
 Once you done with _patching AutoHotKey.exe with AutoHotKey.exe_, 

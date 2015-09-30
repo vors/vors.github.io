@@ -111,6 +111,7 @@ I wrote this simple `.ahk` script to remap `Alt` `Tab` and `Alt` `F4`
 It turns out that to rebind `Alt` `Tab` on Windows 8.1 you need [a little bit more ceremony](http://www.autohotkey.com/board/topic/70449-enable-interaction-with-administrative-programs/).
 Once you done with _patching AutoHotKey.exe with AutoHotKey.exe_, 
 you can create a `.lnk` file in your `~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` directory to automatically run script on the system startup.
+
 **UPD:** Use `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp` directory to enable it for all users. 
 
 On my system "Target" is `"C:\Program Files\AutoHotkey\AutoHotkey.exe" C:\dev\AutoHotkey\WindowsOnMac.ahk`
@@ -118,6 +119,8 @@ On my system "Target" is `"C:\Program Files\AutoHotkey\AutoHotkey.exe" C:\dev\Au
 ![AutoHotkey lnk property](/images/WindowsOnMac/AutoHotKeyLnk.png)
 
 **Voilà!** Feel free to customize more key combinations. 
+
+**UPD:** I created [the repo](https://github.com/vors/AutoHotKey-Mac) with all code related to AutoHotKey setup.
 
 Brightness
 ===============

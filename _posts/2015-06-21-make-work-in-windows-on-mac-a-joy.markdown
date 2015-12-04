@@ -143,7 +143,7 @@ I take back my recomendation for **TrackPad++**.
 It's cumbersome, annoying and doesn't provide much value.
 All you really need is a way to [**reverse trackpad scrolling direction**](http://superuser.com/questions/310681/inverting-direction-of-mouse-scroll-wheel)
 
-    Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 
+    Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }
 
 Conclusion
 ---------------------

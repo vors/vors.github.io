@@ -22,7 +22,7 @@ I recommend you to start exploring PowerShell from ise.
 
 <!-- more -->
 
-##Use familiar unix-like aliases
+## Use familiar unix-like aliases
 
 They are mostly work as you expect!
 
@@ -44,7 +44,7 @@ They are mostly work as you expect!
 
 
 
-##Use intellisense in powershell_ise
+## Use intellisense in powershell_ise
 
 Documentation (`man`) is a good thing, but you can do things much faster with **intellisense**. 
 To bring intellisense use `Ctrl + Space`.
@@ -53,7 +53,7 @@ Beneficial if you understand basics of [PowerShell **naming conventions**](http:
 These conventions tremendously increase explorability. They are enforced by Microsoft and community for a good reason.
 Main convention: all commands names are verb-noun pairs.
 
-###Explore available commands
+### Explore available commands
 
 Use intellisense to explore and pick an appropriate command. 
 In this examle, I looked for a command to manage `bitlocker` (disk encryption on windows).
@@ -62,7 +62,7 @@ Then I used intellisense to explore and specify command parameters.
 
 ![Explore available commands](/images/ps-demo/explore-bitlocker.gif)
 
-###Explore available methods and properties in the pipeline
+### Explore available methods and properties in the pipeline
 
 [Pipeline](http://technet.microsoft.com/en-us/library/dd347728.aspx) is one of the most awesome things in PowerShell. 
 The basic idea: you **pass objects** (in fact .NET objects), **not text streams**. 
@@ -74,13 +74,13 @@ PowerShell can figure out a returned type of a command and use it to provide int
 `$_` variable represents current object. 
 See `man about_Automatic_Variables` for details. 
 
-###Explore environment variables
+### Explore environment variables
 
 Explore, get and set env variables from PowerShell.
 
 ![Explore environment variables](/images/ps-demo/explore-env.gif)
 
-##Jump-Location
+## Jump-Location
 
 [Install Jump-Location](https://github.com/tkellogg/Jump-Location) (autojump for PS) and navigate faster on the file-system. 
 Seriously, I don’t understand how I lived without it.
@@ -88,7 +88,7 @@ Seriously, I don’t understand how I lived without it.
 ![Jump-Location](/images/ps-demo/j.gif)
 
 
-##Do .NET calls directly from PowerShell
+## Do .NET calls directly from PowerShell
 
 PowerShell use .NET (CLR and DLR) and well-integrated with it.
 

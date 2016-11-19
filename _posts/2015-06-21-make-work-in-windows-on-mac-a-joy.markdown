@@ -2,6 +2,7 @@
 layout: post
 title: "Make work in Windows on Mac a joy"
 date: 2015-06-21T17:07:20-07:00
+comments: true
 ---
 
 {% assign command_key = "&#8984;" %}

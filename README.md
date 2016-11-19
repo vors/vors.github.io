@@ -1,2 +1,10 @@
-# vors.github.io
-Rambling about .NET, software development, PowerShell and live. Seattle, WA. 
+# vors.me
+Rambling about software development and live. Seattle, WA.
+
+# Build
+
+To build locally, run the following commands
+
+```
+bundle exec jekyll serve
+```

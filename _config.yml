@@ -7,6 +7,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://vors.me" # the base hostname & protocol for your site
 enforce_ssl: vors.me
+
+permalink: "/:title.html"
+
 twitter_username: xvorsx
 github_username:  vors
 author_name: "Sergei Vorobev"

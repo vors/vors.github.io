@@ -23,7 +23,7 @@ google_universal_analytics_cookiedomain: auto
 
 # Comments
 disqus_show_comment_count: true
-disqus_short_name: "vors"
+disqus_short_name: "xvorsx"
 
 gems:
   - jekyll-seo-tag

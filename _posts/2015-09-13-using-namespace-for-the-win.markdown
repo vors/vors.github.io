@@ -2,7 +2,6 @@
 layout: post
 title: "using namespace For The Win"
 date: 2015-09-13 00:00:00 -0700
-comments: true
 categories: [powershell]
 ---
 

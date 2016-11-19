@@ -2,7 +2,6 @@
 layout: post
 title: "laptop"
 date: 2014-11-29 22:46:39 -0800
-comments: true
 categories: 
 ---
 

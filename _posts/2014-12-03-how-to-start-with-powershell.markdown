@@ -2,7 +2,6 @@
 layout: post
 title: "How to start with PowerShell"
 date: 2014-12-03 01:04:21 -0800
-comments: true
 categories: [powershell, ise, j]
 ---
 

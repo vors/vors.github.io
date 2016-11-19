@@ -2,7 +2,6 @@
 layout: post
 title: "Jump-Location 0.6.0"
 date: 2014-09-30 21:23:22 -0700
-comments: true
 categories: [open source, powershell, j]
 ---
 

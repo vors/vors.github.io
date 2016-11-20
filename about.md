@@ -23,6 +23,7 @@ Contacts
 * [Twitter](https://twitter.com/xvorsx)
 * [StackOverflow](http://stackoverflow.com/users/1355726/xvorsx)
 * [GitHub](https://github.com/vors)
+* [LinkedIn](https://www.linkedin.com/in/sergeivorobev)
 
 Projects
 --------

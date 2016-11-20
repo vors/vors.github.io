@@ -34,15 +34,8 @@ I'm a PowerShell [maintainer](https://github.com/PowerShell/PowerShell/blob/mast
 
 ### [PlatyPS](https://github.com/PowerShell/platyPS)
 
-PlatyPS provides a way to
-
-* Write PowerShell External Help in Markdown.
-* Generate Markdown help for your existing modules.
-* Keep Markdown help up-to-date with your code.
-
+PlatyPS powers both [official Microsoft PowerShell help](https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/microsoft.powershell.core) as well as [community projects](https://github.com/lzybkr/PSReadLine/tree/master/docs).
+It provides a way to Write PowerShell External Help in Markdown.
 More details in PowerShell Team [blog announcement](https://blogs.msdn.microsoft.com/powershell/2016/02/05/platyps-write-external-help-files-in-markdown/).
 
-### [ZLocation](https://github.com/vors/ZLocation/)
-
-ZLocation is PowerShell navigation tool, inspired by [z.sh](https://github.com/rupa/z).
-I also was a maintainer for the similar project [Jump-Location](https://github.com/tkellogg/Jump-Location).
+I created platyPS as a hackathon project with my team mates.

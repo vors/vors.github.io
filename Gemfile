@@ -5,6 +5,7 @@ source "https://rubygems.org"
 
 gem 'octopress', '~> 3.0'
 gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
 
 # octopress-image-tag is a support for liquide style tag: {% img %}
 # GitHub pages doesn't support it.

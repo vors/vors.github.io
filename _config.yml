@@ -27,5 +27,6 @@ google_universal_analytics_cookiedomain: auto
 
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile']

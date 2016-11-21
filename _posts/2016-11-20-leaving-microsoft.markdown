@@ -16,7 +16,7 @@ Working in Dynamics, I experimented with different options, like `cmd`, `cygwin`
 
 I didn't quite like few things in PowerShell, but despite that it seems very fresh and powerful.
 I asked the team to give me access to PowerShell source code.
-They could not because Microsoft and Windows source code permissions.
+They could not because ... you know, Windows source code permissions.
 So I figure out the only way to get my hands on the codebase and try to fix the problems is to join the team.
 
 
@@ -49,7 +49,7 @@ Andy, it was a pleasure to work with you.
 
 We also have [open-source PowerShell help for core modules](https://github.com/PowerShell/PowerShell-Docs/tree/staging/reference/5.1), powered by [platyPS](https://github.com/PowerShell/platyPS).
 
-It was a really great time and it ends on the high note.
+I had a really great time at Microsoft and it ends on the high note.
 
 Going forward
 -------------
@@ -58,7 +58,5 @@ I will start working at Dropbox (Seattle) in January 2017.
 
 I'm currently one of PowerShell [maintainers](https://github.com/PowerShell/PowerShell/tree/bfd6d654588da09dcb35850e8ea0609b05a2b5ed/docs/maintainers#current-repository-maintainers).
 I will continue to be **maintainer**, as far as the team thinks I provide value as a maintainer and I have time for that.
-That would make me first non-Microsoft-employee-PowerShell-maintainer.
+That would make me first **non-Microsoft**-employee-PowerShell-maintainer.
 I think it's a very healthy sign and shows that team treats its open-source projects with transparency and inclusiveness.
-I'm looking forward to seeing more non-Microsoft people becoming maintainers.
-

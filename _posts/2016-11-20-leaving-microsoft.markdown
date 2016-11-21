@@ -19,6 +19,7 @@ I asked the team to give me access to PowerShell source code.
 They could not because ... you know, Windows source code permissions.
 So I figure out the only way to get my hands on the codebase and try to fix the problems is to join the team.
 
+<div style="text-align:center"><img src ="/images/leaving-microsoft/Powershell_256.png" /></div>
 
 PowerShell
 ----------
@@ -60,3 +61,5 @@ I'm currently one of PowerShell [maintainers](https://github.com/PowerShell/Powe
 I will continue to be **maintainer**, as far as the team thinks I provide value as a maintainer and I have time for that.
 That would make me first **non-Microsoft**-employee-PowerShell-maintainer.
 I think it's a very healthy sign and shows that team treats its open-source projects with transparency and inclusiveness.
+
+<div style="text-align:center"><img src ="/images/leaving-microsoft/dropbox.png" /></div>

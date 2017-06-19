@@ -93,7 +93,7 @@ You know, the classic [map-reduce-Hello-World](https://hadoop.apache.org/docs/r1
 This is one of the stepping stones in programs.
 I had to code something along this lines in 30% of all interviews.
 
-#### C#
+**C#**
 
     var d = new Dictionary<string, int>();
     foreach (var word in text.Split()) {
@@ -105,7 +105,7 @@ I had to code something along this lines in 30% of all interviews.
         d[word] = count + 1;
     }
 
-#### Python
+**Python**
 
     d = {}
     for word in text.split():
@@ -148,10 +148,14 @@ You can use `list` for
 
 `dict` has the most whiteboard-friendly API to check that key is present in the collection:
 
+**Python**
+
     if key not in d:
 
 Look how clean it is! And no brackets!
 Compare it to
+
+**C#**
 
     if (!d.Contains(key)) {
 
@@ -167,6 +171,8 @@ When you need to return one more thing from a helper subroutine, python got your
 Let's take a look at an example.
 You wrote this code.
 
+**Python**
+
     def foo():
         # code-code-code
         return count
@@ -174,6 +180,8 @@ You wrote this code.
     count = foo()
 
 Just to realise that you need to return not only the `count`, but say `max` element as well.
+
+**Python**
 
     def foo():
         # code-code-code

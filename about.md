@@ -9,12 +9,7 @@ permalink: /about/
 Sergei Vorobev
 ==============
 
-Hello! A few facts about me:
-
-* I'm developing software since 2009.
-* My BS/MS major is [Pure Math](https://en.wikipedia.org/wiki/Pure_mathematics).
-* My passion is "tools that empower people".
-* My most used social network is github.
+I push buttons for living.
 
 Contacts
 --------

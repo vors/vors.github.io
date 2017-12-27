@@ -18,7 +18,7 @@ Here is the most reasonable way to achieve it
 
 One thing that simplified this process for me was the fact that platyPS dll doesn’t reference System.Management.Automation or any other powershell assemblies. If you need to reference them (i.e. for C# module), you should check [PSReadLine](https://github.com/lzybkr/PSReadLine) repo for a good example of how to achieve the same.
 
-So here we go: use windows build for publishing and user non-windows build for development only. It could be even better, but that is already pretty good. It was a long journey to get there and many people from Microsoft and community dedicated many many hours of their life to make that happen. Kudos to all of them and big thanks for all the hard work!
+So here we go: use windows build for publishing and use non-windows build for development only. It could be even better, but that is already pretty good. It was a long journey to get there and many people from Microsoft and community dedicated many many hours of their life to make that happen. Kudos to all of them and big thanks for all the hard work!
 
 PS: I just published platyPS 0.9.0 from my macbook! The module was downloaded from appveyor CI. This is a huge step forward for me since I don’t have access to any windows machine on a daily basis and I would need to create a VM just to publish the module few months ago.
 

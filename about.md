@@ -35,3 +35,11 @@ It provides a way to Write PowerShell External Help in Markdown.
 More details in PowerShell Team [blog announcement](https://blogs.msdn.microsoft.com/powershell/2016/02/05/platyps-write-external-help-files-in-markdown/).
 
 I created platyPS as a hackathon project with my team mates.
+
+Hire
+----
+
+If you are using these open source projects and want to improve them to meet your business needs,
+you can hire me as an independent contractor.
+
+For business inquires use email `xvorsx [at] gmail.com`.

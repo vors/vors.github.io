@@ -30,3 +30,5 @@ gems:
   - jekyll-sitemap
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
+theme: jekyll-theme-hacker

@@ -1,0 +1,32 @@
+---
+layout: post
+title: "laptop"
+date: 2014-11-29 22:46:39 -0800
+categories: 
+---
+
+I like spreadsheets. 
+Sometimes I find an old spreadsheet and wonder what the heck I mean, when I created it.
+Today I found an one-year old sheet about laptops and want to share it.
+
+I described **scenarios** that my **lightweight** laptop (they used to be called ultrabooks) should satisfy.
+I added some scores (10 is maximum) for two laptops that I used for the past year: **macbook air 2012** and **dell xps 12**.
+
+**Note:** I use a laptop as my main working machine at home, I don't have a working station there.
+
+<!-- more -->
+
+| Scenario | Metrics | Priority | Dell XPS    | Macbook Air      |
+|----------|---------|:--------:|:-----------:|:----------------:|
+|open laptop,<br/> quick yelp/google maps/mail lookup, close laptop | Startup time, browser readiness |  P1 |  4  |  9 |
+|Scroll web page |  Smothness |  P1 |  6  |  10 |
+|Adjust sound level<br/> (for music / video) |  Speed,<br/> easy in unusual conditions<br/> (i.e. during sex) |  P1 |  7  |  8 |
+|install toolchain for a new<br/> language/framework/hardware,<br/> write "hello world" app using it |  Count of non-automated actions (i.e. install unsigned drivers) |  P2 |  3  |  7 |
+|clone source from github, build project |  Any additional software required? |  P1 |  4  |  7 |
+|install a new general purpose software |  easy to find,<br/> easy to install |  P2 |  8  |  6 |
+|Type instant message in dark room, laying in a bed |  how much time do you need to do it,<br/> is it a good expirience |  P2 |  6  |  8 |
+|Play a game from steam |  Is this OS supported for games? <br/> Does laptop have enought space to install one more 7-Gb game? <br/> Does hardware allow me play some new hits? |  P2 |  6  |  3 |
+
+<br/>
+
+That's pretty much sums up why I prefer macbook air. Yep.

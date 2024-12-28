@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "New GitHub pricing policy"
 date: 2016-05-11
 categories: [github]

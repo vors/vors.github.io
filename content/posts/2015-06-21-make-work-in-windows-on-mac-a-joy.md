@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Make work in Windows on Mac a joy"
 date: 2015-06-21
 ---

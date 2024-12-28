@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Difference between RequiredVersion and ModuleVersion"
 date: 2015-09-10
 categories: [powershell, dsc]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Choosing Programming Language For Interview"
 date: 2017-06-18
 ---

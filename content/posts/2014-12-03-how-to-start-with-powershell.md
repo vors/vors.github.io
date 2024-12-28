@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "How to start with PowerShell"
 date: 2014-12-03
 categories: [powershell, ise, j]

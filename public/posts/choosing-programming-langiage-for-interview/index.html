@@ -1,4 +1,281 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta content="width=device-width,initial-scale=1.0" name=viewport><meta content="light dark" name=color-scheme><title>Choosing Programming Language For Interview</title><link href=/img/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=/img/favicon-16x16.png rel=icon sizes=16x16 type=image/png><link href=/img/apple-touch-icon.png rel=apple-touch-icon sizes=180x180><style>body{--primary-color:#5871a2;--primary-pale-color:#5871a210;--text-color:#3c4043;--text-pale-color:#a3a5a9;--bg-color:#fff;--highlight-mark-color:#5f75b035;--blockquote-color:#8e8d91;--callout-note-color:#5871a2;--callout-important-color:#8062b0;--callout-warning-color:#936e51;--callout-alert-color:#bc5252;--callout-question-color:#477389;--callout-tip-color:#3c8460}body.dark{--primary-color:#5d77ac;--primary-pale-color:#5d77ac20;--text-color:#9197a5;--text-pale-color:#656a74;--bg-color:#18191b;--highlight-mark-color:#5f75b035;--blockquote-color:#747983;--callout-note-color:#5d77ac;--callout-important-color:#8062b0;--callout-warning-color:#936e51;--callout-alert-color:#bc5252;--callout-question-color:#477389;--callout-tip-color:#3c8460}body{--main-font:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--code-font:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--homepage-max-width:768px;--main-max-width:768px;--avatar-size:56px;--homepage-font-size:16px;--homepage-line-height:1.75;--paragraph-font-size:16px;--paragraph-line-height:1.75;--aside-font-size:15px;--img-border-radius:0px;--detail-border-radius:0px;--dark-mode-img-brightness:.75;--dark-mode-chart-brightness:.75;--inline-code-border-radius:2px;--inline-code-bg-color:var(--primary-pale-color);--block-code-border-radius:0px;--block-code-border-color:var(--primary-color);--detail-border-color:var(--primary-color)}</style><link href=/main.css rel=stylesheet><link href=/hl-light.css id=hl rel=stylesheet><body class=post><script>const theme=sessionStorage.getItem(`theme`);const match=window.matchMedia(`(prefers-color-scheme: dark)`).matches;if(theme&&theme==`dark`||!theme&&match){document.body.classList.add(`dark`);const a=document.querySelector(`link#hl`);if(a)a.href=`/hl-dark.css`}</script><header><div id=header-wrapper><nav><a class=instant href=/>vors.me</a><button aria-label="toggle expand" class=separator id=toggler>></button><span class="wrap left fold">{</span><a class=instant href=/posts>posts</a><span class="wrap-separator fold">,</span><a class="instant fold" href=/projects>projects</a><span class="wrap right fold">} ;</span></nav><div id=btns><button aria-label="theme switch" id=theme-toggle><span class=moon-icon><svg viewbox="0 0 24 24" height=20 width=20 xmlns=http://www.w3.org/2000/svg><path d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27098 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9187 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08133 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z" fill=currentColor></path></svg></span> <span class=sun-icon><svg viewbox="0 0 24 24" height=20 width=20 xmlns=http://www.w3.org/2000/svg><path d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z" fill=currentColor></path></svg></span></button></div></div></header><div id=wrapper><div id=blank></div><aside></aside><main><div><div data-check-icon='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M10.0007 15.1709L19.1931 5.97852L20.6073 7.39273L10.0007 17.9993L3.63672 11.6354L5.05093 10.2212L10.0007 15.1709Z" fill="currentColor"></path></svg>' data-copy-icon='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z" fill="currentColor"></path></svg>' id=copy-cfg style=display:none></div><article data-backlink-icon='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M9.41421 8L18.0208 16.6066L16.6066 18.0208L8 9.41421V17H6V6H17V8H9.41421Z" fill="currentColor"></path></svg>' class=prose><h1>Choosing Programming Language For Interview</h1><div id=post-info><div id=date><span id=publish>2017-06-18</span></div></div><p>I did a round of interviews in different companies for Software Engineer position in the end of 2016 and though it's a good idea to share my experience. I also started interview people at Dropbox and got some additional perspective on the process. There are a lot of different aspects of the interview. One of the main skills evaluated on them is a coding questions solving.<p>There are different opinions about legitimacy is of this process. We will leave this discussion out of the scope of this post. The reality is that all companies are doing it. So if you are looking for a developer position, you would need to solve such questions as efficiently as you can. We will focus on choosing the programming language you are going to use.<h2 id=coding-questions>Coding questions<a aria-label="Anchor link for: coding-questions" class=zola-anchor href=#coding-questions style=visibility:hidden></a></h2><p>The coding part of the question generally takes 3 different forms depending on the company:<ol><li>coding on a whiteboard (~ 60%)<li>coding in an online text editor, no IDE features (~ 10%)<li>coding in your prefered environment (~ 30%)</ol><p>The percentage is based on my experience in 2016 only but I think they represent the trend.<p>The online text editor is very common for screening interviews (before you go to the onsite). Screening interviews are in general much easier, so I didn't include them into this statistics.<h2 id=choosing-the-language>Choosing the language<a aria-label="Anchor link for: choosing-the-language" class=zola-anchor href=#choosing-the-language style=visibility:hidden></a></h2><p>There is a common place about choosing the language<ul><li>Use the language you are most comfortable with.<li>If the decision is close, use the language your interviewer is most comfortable with.</ul><p>I personally would prefer to walk to the interview with a clear understanding of what I'm going to use. It removes unnecessary decision making from the interview.<p>Ok, so what languages did I know and could use? The list was pretty boring:<ul><li>Java<li>C<li>C++<li>C#<li>Python<li>PowerShell</ul><p>If you count pet projects, school project and one-time offs, I can throw JavaScript to the mix. My thoughts on them:<ul><li><a rel="nofollow noreferrer" href=http://yosefk.com/c++fqa/index.html>Boo C++</a><li>C doesn't have good standard collections, no-go for interviews<li>Java is OMG, SOOO VERBOSE. To be fair, it may get better nowadays with Java 8 and 9, but I didn't pay close attention to it.<li>Python is cool, but I haven't use it in 3 years and didn't use it in any big project at all.<li>C# is a good, less verbose than Java. I know it in and out, I was in Microsoft for the past 4 years.</ul><p>So I decided to go with C#.<h2 id=talking-with-hrs>Talking with HRs<a aria-label="Anchor link for: talking-with-hrs" class=zola-anchor href=#talking-with-hrs style=visibility:hidden></a></h2><p>Programmers who are doing interviews are generally don't care about what language you are using. This rule applies to 95% people from my experience. Some interviewers would be fine if you just do pseudo-code for the most part.<p>Who cares about languages are HRs. They are trying to setup the interview loop in a way that everybody speaks your language. So I spoke with HRs about programming languages, which sometimes may be amusing.<p>In one place I've been told that people who are using C# for interviews are performing worse on average than people who are using other language. That's quite a statement! It may be a stretch, but for me it seems somewhat close to <a rel="nofollow noreferrer" href=http://danluu.com/programmer-moneyball/>"Mike’s a .NET dev, and we don’t like people with Windows experience"</a>. I already did a phone interview with them using C# and made a good connection with the engineer, who interviewed me. I asked his opinion about using C# for the onsite and he was totally positive that it would not be a problem. So I sticked with my choice.<p>Then there was one company that explicitly asked to use something other than C# for one interview. That made me think again about alternative languages and I decided to brush up my python. I used <a rel="nofollow noreferrer" href=https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview>Cracking the Coding Interview Challenges</a> on hackerrank. I got my hands on python and realised how much I like it in the interview context.<h2 id=why-python>Why Python<a aria-label="Anchor link for: why-python" class=zola-anchor href=#why-python style=visibility:hidden></a></h2><p>Ok, so let's compare C# and Python from the interview prospective.<p><strong>Task</strong>: fill up a dictionary that maps words from input into something. To be more concrete let's say it counts how many times the word appear. You know, the classic <a rel="nofollow noreferrer" href=https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html#Example%3A+WordCount+v1.0>map-reduce-Hello-World</a>.<p>This is one of the stepping stones in programs. I had to code something along this lines in 30% of all interviews.<p><strong>C#</strong><pre class=z-code><code><span class="z-text z-plain">var d = new Dictionary&LTstring, int>();
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  
+  
+  
+
+  <title>Choosing Programming Language For Interview</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  
+  <style>
+
+  /* light mode colors */
+  body {
+    --primary-color: #5871a2;
+    --primary-pale-color: #5871a210;
+    --text-color: #3C4043;
+    --text-pale-color: #a3a5a9;
+    --bg-color: #ffffff;
+    --highlight-mark-color: #5f75b035;
+    --blockquote-color: #8e8d91;
+
+    --callout-note-color: #5871a2;
+    --callout-important-color: #8062b0;
+    --callout-warning-color: #936e51;
+    --callout-alert-color: #bc5252;
+    --callout-question-color: #477389;
+    --callout-tip-color: #3c8460;
+  }
+
+  /* dark mode colors */
+  body.dark {
+    --primary-color: #5d77ac;
+    --primary-pale-color: #5d77ac20;
+    --text-color: #9197a5;
+    --text-pale-color: #656a74;
+    --bg-color: #18191b;
+    --highlight-mark-color: #5f75b035;
+    --blockquote-color: #747983;
+
+    --callout-note-color: #5d77ac;
+    --callout-important-color: #8062b0;
+    --callout-warning-color: #936e51;
+    --callout-alert-color: #bc5252;
+    --callout-question-color: #477389;
+    --callout-tip-color: #3c8460;
+  }
+
+  /* typography */
+  body {
+    --main-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --code-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --homepage-max-width: 768px;
+    --main-max-width: 768px;
+    --avatar-size: 56px;
+    --homepage-font-size: 16px;
+    --homepage-line-height: 1.75;
+    --paragraph-font-size: 16px;
+    --paragraph-line-height: 1.75;
+    --aside-font-size: 15px;
+    --img-border-radius: 0px;
+    --detail-border-radius: 0px;
+    --dark-mode-img-brightness: 0.75;
+    --dark-mode-chart-brightness: 0.75;
+    --inline-code-border-radius: 2px;
+    --inline-code-bg-color: var(--primary-pale-color);
+    --block-code-border-radius: 0px;
+    --block-code-border-color: var(--primary-color);
+    --detail-border-color: var(--primary-color);
+  }
+
+</style>
+
+  <link rel="stylesheet" href="/main.css">
+  
+
+<link id="hl" rel="stylesheet" type="text/css" href="/hl-light.css" />
+
+
+
+  
+</head>
+
+<body class="post">
+  
+  <script>
+    const theme = sessionStorage.getItem('theme');
+    const match = window.matchMedia("(prefers-color-scheme: dark)").matches
+    if ((theme && theme == 'dark') || (!theme && match)) {
+      document.body.classList.add('dark');
+      const hl = document.querySelector('link#hl');
+      if (hl) hl.href = '/hl-dark.css';
+    }
+  </script>
+  
+  
+<header >
+  <div id="header-wrapper">
+    <nav>
+      <a class="instant" href="/">vors.me</a>
+      
+        <button id="toggler" class="separator" aria-label="toggle expand">&gt;</button>
+      
+      
+        <span class="wrap left fold">{</span>
+        
+        
+        
+        
+          
+          
+          <a class="instant " href="&#x2F;posts">posts</a>
+          <span class="wrap-separator fold">,</span>
+        
+          
+          
+            
+          
+          <a class="instant fold" href="&#x2F;projects">projects</a>
+          
+        
+        <span class="wrap right fold">} ;</span>
+      
+    </nav>
+    <div id="btns">
+      
+      
+      
+
+      
+      
+      
+      
+      
+
+      
+      
+      
+      <button id="theme-toggle" aria-label="theme switch">
+        <span class="moon-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27098 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9187 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08133 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z" fill="currentColor"></path></svg></span>
+        <span class="sun-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z" fill="currentColor"></path></svg></span>
+      </button>
+      
+
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</header>
+
+
+
+
+
+<div id="wrapper">
+  <div id="blank"></div>
+  <aside>
+    
+    
+    
+  </aside>
+  <main>
+    <div>
+      
+      
+      
+      
+      <div id="copy-cfg" style="display: none;" data-copy-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;" data-check-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M10.0007 15.1709L19.1931 5.97852L20.6073 7.39273L10.0007 17.9993L3.63672 11.6354L5.05093 10.2212L10.0007 15.1709Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;"></div>
+      
+      
+      <article class="prose" data-backlink-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M9.41421 8L18.0208 16.6066L16.6066 18.0208L8 9.41421V17H6V6H17V8H9.41421Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;">
+        <h1>Choosing Programming Language For Interview</h1>
+        <div id="post-info">
+          <div id="date">
+            <span id="publish">2017-06-18</span>
+            </div>
+
+          
+
+          
+        </div>
+
+        
+        
+
+        
+
+        
+
+        
+          <p>I did a round of interviews in different companies for Software Engineer position in the end of 2016 and though it's a good idea to share my experience.
+I also started interview people at Dropbox and got some additional perspective on the process.
+There are a lot of different aspects of the interview.
+One of the main skills evaluated on them is a coding questions solving.</p>
+<p>There are different opinions about legitimacy is of this process.
+We will leave this discussion out of the scope of this post.
+The reality is that all companies are doing it.
+So if you are looking for a developer position, you would need to solve such questions as efficiently as you can.
+We will focus on choosing the programming language you are going to use.</p>
+<h2 id="coding-questions">Coding questions<a class="zola-anchor" href="#coding-questions" aria-label="Anchor link for: coding-questions" style="visibility: hidden;"></a>
+</h2>
+<p>The coding part of the question generally takes 3 different forms depending on the company:</p>
+<ol>
+<li>coding on a whiteboard (~ 60%)</li>
+<li>coding in an online text editor, no IDE features (~ 10%)</li>
+<li>coding in your prefered environment (~ 30%)</li>
+</ol>
+<p>The percentage is based on my experience in 2016 only but I think they represent the trend.</p>
+<p>The online text editor is very common for screening interviews (before you go to the onsite).
+Screening interviews are in general much easier, so I didn't include them into this statistics.</p>
+<h2 id="choosing-the-language">Choosing the language<a class="zola-anchor" href="#choosing-the-language" aria-label="Anchor link for: choosing-the-language" style="visibility: hidden;"></a>
+</h2>
+<p>There is a common place about choosing the language</p>
+<ul>
+<li>Use the language you are most comfortable with.</li>
+<li>If the decision is close, use the language your interviewer is most comfortable with.</li>
+</ul>
+<p>I personally would prefer to walk to the interview with a clear understanding of what I'm going to use.
+It removes unnecessary decision making from the interview.</p>
+<p>Ok, so what languages did I know and could use?
+The list was pretty boring:</p>
+<ul>
+<li>Java</li>
+<li>C</li>
+<li>C++</li>
+<li>C#</li>
+<li>Python</li>
+<li>PowerShell</li>
+</ul>
+<p>If you count pet projects, school project and one-time offs, I can throw JavaScript to the mix.
+My thoughts on them:</p>
+<ul>
+<li><a rel="nofollow noreferrer" href="http://yosefk.com/c++fqa/index.html">Boo C++</a></li>
+<li>C doesn't have good standard collections, no-go for interviews</li>
+<li>Java is OMG, SOOO VERBOSE. To be fair, it may get better nowadays with Java 8 and 9, but I didn't pay close attention to it.</li>
+<li>Python is cool, but I haven't use it in 3 years and didn't use it in any big project at all.</li>
+<li>C# is a good, less verbose than Java. I know it in and out, I was in Microsoft for the past 4 years.</li>
+</ul>
+<p>So I decided to go with C#.</p>
+<h2 id="talking-with-hrs">Talking with HRs<a class="zola-anchor" href="#talking-with-hrs" aria-label="Anchor link for: talking-with-hrs" style="visibility: hidden;"></a>
+</h2>
+<p>Programmers who are doing interviews are generally don't care about what language you are using.
+This rule applies to 95% people from my experience.
+Some interviewers would be fine if you just do pseudo-code for the most part.</p>
+<p>Who cares about languages are HRs.
+They are trying to setup the interview loop in a way that everybody speaks your language.
+So I spoke with HRs about programming languages, which sometimes may be amusing.</p>
+<p>In one place I've been told that people who are using C# for interviews
+are performing worse on average than people who are using other language.
+That's quite a statement!
+It may be a stretch, but for me it seems somewhat close to <a rel="nofollow noreferrer" href="http://danluu.com/programmer-moneyball/">"Mike’s a .NET dev, and we don’t like people with Windows experience"</a>.
+I already did a phone interview with them using C# and made a good connection with the engineer, who interviewed me.
+I asked his opinion about using C# for the onsite and he was totally positive that it would not be a problem.
+So I sticked with my choice.</p>
+<p>Then there was one company that explicitly asked to use something other than C# for one interview.
+That made me think again about alternative languages and I decided to brush up my python.
+I used Cracking the Coding Interview Challenges on hackerrank.
+I got my hands on python and realised how much I like it in the interview context.</p>
+<h2 id="why-python">Why Python<a class="zola-anchor" href="#why-python" aria-label="Anchor link for: why-python" style="visibility: hidden;"></a>
+</h2>
+<p>Ok, so let's compare C# and Python from the interview prospective.</p>
+<p><strong>Task</strong>: fill up a dictionary that maps words from input into something.
+To be more concrete let's say it counts how many times the word appear.
+You know, the classic <a rel="nofollow noreferrer" href="https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html#Example%3A+WordCount+v1.0">map-reduce-Hello-World</a>.</p>
+<p>This is one of the stepping stones in programs.
+I had to code something along this lines in 30% of all interviews.</p>
+<p><strong>C#</strong></p>
+<pre class="z-code"><code><span class="z-text z-plain">var d = new Dictionary&lt;string, int&gt;();
 </span><span class="z-text z-plain">foreach (var word in text.Split()) {
 </span><span class="z-text z-plain">    int count;
 </span><span class="z-text z-plain">    if (!d.TryGet(word, out count)) {
@@ -7,19 +284,128 @@
 </span><span class="z-text z-plain">
 </span><span class="z-text z-plain">    d[word] = count + 1;
 </span><span class="z-text z-plain">}
-</span></code></pre><p><strong>Python</strong><pre class=z-code><code><span class="z-text z-plain">d = {}
+</span></code></pre>
+<p><strong>Python</strong></p>
+<pre class="z-code"><code><span class="z-text z-plain">d = {}
 </span><span class="z-text z-plain">for word in text.split():
 </span><span class="z-text z-plain">    d[word] = d.get(word, 0) + 1
-</span></code></pre><p>If you exclude tabulation, it's 154 chars vs 61 chars. When you write code on the whiteboard (60% of all interviews as we said), you appreciate every single saved char. This is the most obvious benefit.<p>There is a number of subtle things that contribute to the easier whiteboard writing.<h3 id=no-curly-brackets>No curly brackets<a aria-label="Anchor link for: no-curly-brackets" class=zola-anchor href=#no-curly-brackets style=visibility:hidden></a></h3><p>It's very natural to put curly brackets in pairs, when you are typing on a keyboard. Your favorite text editor / IDE probably does it for you. It's hard to break this habit, when you are coding on a white-board. Maybe it's just me, but for me it leads to two outcomes<ul><li>trying to guess how much space do I need for this <code>while</code>-loop<li>forget to close the open curly</ul><h3 id=no-round-brackets>No round brackets<a aria-label="Anchor link for: no-round-brackets" class=zola-anchor href=#no-round-brackets style=visibility:hidden></a></h3><p>Let's say you need to write something like <code>foreach (var word in text.Split())</code>. These two extra breakers may not seem like much, but it's wasted writing.<p>They also make code harder to read and write. My <code>l</code>, <code>i</code>, <code>(</code> and <code>)</code> <strong>all look alike on whiteboard</strong>. The less vertical lines I can put consequently the better.<h3 id=collection>Collection<a aria-label="Anchor link for: collection" class=zola-anchor href=#collection style=visibility:hidden></a></h3><p>Python has great built-in collections: <code>dict</code> and <code>list</code>. You can use <code>list</code> for<ul><li>array<li>list<li>queue<li>stack</ul><p><code>dict</code> has the most whiteboard-friendly API to check that key is present in the collection:<p><strong>Python</strong><pre class=z-code><code><span class="z-text z-plain">if key not in d:
-</span></code></pre><p>Look how clean it is! And no brackets! Compare it to<p><strong>C#</strong><pre class=z-code><code><span class="z-text z-plain">if (!d.Contains(key)) {
-</span></code></pre><p>See all this vertical lines that look alike?<p>Other popular collections are <code>set</code> and <code>OrderedSet</code>. They come handy on interviews and usable with very slim syntax as well.<h3 id=easy-to-change-return-type>Easy to change return type<a aria-label="Anchor link for: easy-to-change-return-type" class=zola-anchor href=#easy-to-change-return-type style=visibility:hidden></a></h3><p>When you need to return one more thing from a helper subroutine, python got your back. Let's take a look at an example. You wrote this code.<p><strong>Python</strong><pre class=z-code><code><span class="z-text z-plain">def foo():
+</span></code></pre>
+<p>If you exclude tabulation, it's 154 chars vs 61 chars.
+When you write code on the whiteboard (60% of all interviews as we said),
+you appreciate every single saved char.
+This is the most obvious benefit.</p>
+<p>There is a number of subtle things that contribute to the easier whiteboard writing.</p>
+<h3 id="no-curly-brackets">No curly brackets<a class="zola-anchor" href="#no-curly-brackets" aria-label="Anchor link for: no-curly-brackets" style="visibility: hidden;"></a>
+</h3>
+<p>It's very natural to put curly brackets in pairs, when you are typing on a keyboard.
+Your favorite text editor / IDE probably does it for you.
+It's hard to break this habit, when you are coding on a white-board.
+Maybe it's just me, but for me it leads to two outcomes</p>
+<ul>
+<li>trying to guess how much space do I need for this <code>while</code>-loop</li>
+<li>forget to close the open curly</li>
+</ul>
+<h3 id="no-round-brackets">No round brackets<a class="zola-anchor" href="#no-round-brackets" aria-label="Anchor link for: no-round-brackets" style="visibility: hidden;"></a>
+</h3>
+<p>Let's say you need to write something like <code>foreach (var word in text.Split())</code>.
+These two extra breakers may not seem like much, but it's wasted writing.</p>
+<p>They also make code harder to read and write.
+My <code>l</code>, <code>i</code>, <code>(</code> and <code>)</code> <strong>all look alike on whiteboard</strong>.
+The less vertical lines I can put consequently the better.</p>
+<h3 id="collection">Collection<a class="zola-anchor" href="#collection" aria-label="Anchor link for: collection" style="visibility: hidden;"></a>
+</h3>
+<p>Python has great built-in collections: <code>dict</code> and <code>list</code>.
+You can use <code>list</code> for</p>
+<ul>
+<li>array</li>
+<li>list</li>
+<li>queue</li>
+<li>stack</li>
+</ul>
+<p><code>dict</code> has the most whiteboard-friendly API to check that key is present in the collection:</p>
+<p><strong>Python</strong></p>
+<pre class="z-code"><code><span class="z-text z-plain">if key not in d:
+</span></code></pre>
+<p>Look how clean it is! And no brackets!
+Compare it to</p>
+<p><strong>C#</strong></p>
+<pre class="z-code"><code><span class="z-text z-plain">if (!d.Contains(key)) {
+</span></code></pre>
+<p>See all this vertical lines that look alike?</p>
+<p>Other popular collections are <code>set</code> and <code>OrderedSet</code>.
+They come handy on interviews and usable with very slim syntax as well.</p>
+<h3 id="easy-to-change-return-type">Easy to change return type<a class="zola-anchor" href="#easy-to-change-return-type" aria-label="Anchor link for: easy-to-change-return-type" style="visibility: hidden;"></a>
+</h3>
+<p>When you need to return one more thing from a helper subroutine, python got your back.
+Let's take a look at an example.
+You wrote this code.</p>
+<p><strong>Python</strong></p>
+<pre class="z-code"><code><span class="z-text z-plain">def foo():
 </span><span class="z-text z-plain">    # code-code-code
 </span><span class="z-text z-plain">    return count
 </span><span class="z-text z-plain">
 </span><span class="z-text z-plain">count = foo()
-</span></code></pre><p>Just to realise that you need to return not only the <code>count</code>, but say <code>max</code> element as well.<p><strong>Python</strong><pre class=z-code><code><span class="z-text z-plain">def foo():
+</span></code></pre>
+<p>Just to realise that you need to return not only the <code>count</code>, but say <code>max</code> element as well.</p>
+<p><strong>Python</strong></p>
+<pre class="z-code"><code><span class="z-text z-plain">def foo():
 </span><span class="z-text z-plain">    # code-code-code
 </span><span class="z-text z-plain">    return count, max
 </span><span class="z-text z-plain">
 </span><span class="z-text z-plain">count, max = foo()
-</span></code></pre><p>Simple to fix on a whiteboard! Now think about C# or Java. You have to change<ul><li>signature of the method. You can go with <code>out parameter</code> or <code>Tuple&LTint, int></code> for the return type.<li>return statement<li>caller code</ul><p>All these changes a way more destructive to the code and it's hard to squeeze them without rewriting lines.<h2 id=python-problems>Python problems<a aria-label="Anchor link for: python-problems" class=zola-anchor href=#python-problems style=visibility:hidden></a></h2><p>It's not all roses and rainbows. The biggest problem for me is indentation. I know that I just said that "No curlies" is a plus, but it comes with a price. If you screw-up indentation (need to reindent a big block of text), it could become messy.<p>One thing I found useful was to start with big indentations. That way there is a room to make them smaller if needed.<p>Sometimes it's just easier to rewrite a block of program. And in this case you will appreciate the expressiveness of the language one more time.<h2 id=conclusion>Conclusion<a aria-label="Anchor link for: conclusion" class=zola-anchor href=#conclusion style=visibility:hidden></a></h2><p>The language that you are picking should not be something obscure (Erlang), something verbose (Java), something that require memory management (C++). Otherwise you will <strong>spend time inefficiently</strong>. You will write boilerplate, you will fix memory leaks, you will explaining the syntax of the language to the interviewer.<p>Interviewers are <strong>not</strong> interested in dealing with language nuances, they want to see that you can solve the problem <strong>and</strong> code it down. In this situation faster is always better.</article></div><footer><div class=copyright></div></footer></main></div><script src=/js/lightense.min.js></script><script src=/js/main.js></script>
+</span></code></pre>
+<p>Simple to fix on a whiteboard!
+Now think about C# or Java.
+You have to change</p>
+<ul>
+<li>signature of the method. You can go with <code>out parameter</code> or <code>Tuple&lt;int, int&gt;</code> for the return type.</li>
+<li>return statement</li>
+<li>caller code</li>
+</ul>
+<p>All these changes a way more destructive to the code and it's hard to squeeze them without rewriting lines.</p>
+<h2 id="python-problems">Python problems<a class="zola-anchor" href="#python-problems" aria-label="Anchor link for: python-problems" style="visibility: hidden;"></a>
+</h2>
+<p>It's not all roses and rainbows.
+The biggest problem for me is indentation.
+I know that I just said that "No curlies" is a plus, but it comes with a price.
+If you screw-up indentation (need to reindent a big block of text), it could become messy.</p>
+<p>One thing I found useful was to start with big indentations.
+That way there is a room to make them smaller if needed.</p>
+<p>Sometimes it's just easier to rewrite a block of program.
+And in this case you will appreciate the expressiveness of the language one more time.</p>
+<h2 id="conclusion">Conclusion<a class="zola-anchor" href="#conclusion" aria-label="Anchor link for: conclusion" style="visibility: hidden;"></a>
+</h2>
+<p>The language that you are picking should not be something obscure (Erlang), something verbose (Java), something that require memory management (C++).
+Otherwise you will <strong>spend time inefficiently</strong>.
+You will write boilerplate, you will fix memory leaks, you will explaining the syntax of the language to the interviewer.</p>
+<p>Interviewers are <strong>not</strong> interested in dealing with language nuances,
+they want to see that you can solve the problem <strong>and</strong> code it down.
+In this situation faster is always better.</p>
+
+        
+      </article>
+
+      
+      
+
+      
+      
+    </div>
+
+    <footer>
+  <div class="copyright">
+    
+  </div>
+  
+</footer>
+  </main>
+</div>
+
+  
+<script src="/js/lightense.min.js"></script>
+
+
+  <script src="/js/main.js"></script>
+</body>
+
+</html>

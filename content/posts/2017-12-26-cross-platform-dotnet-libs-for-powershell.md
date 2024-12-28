@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Cross Platform Dotnet Libs for Powershell"
 date: 2017-12-26
 ---

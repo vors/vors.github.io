@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Leaving Microsoft"
 date: 2016-11-20
 ---

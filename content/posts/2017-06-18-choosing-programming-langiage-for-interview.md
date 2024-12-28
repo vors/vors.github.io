@@ -79,7 +79,7 @@ So I sticked with my choice.
 
 Then there was one company that explicitly asked to use something other than C# for one interview.
 That made me think again about alternative languages and I decided to brush up my python.
-I used [Cracking the Coding Interview Challenges](https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview) on hackerrank.
+I used Cracking the Coding Interview Challenges on hackerrank.
 I got my hands on python and realised how much I like it in the interview context.
 
 ## Why Python

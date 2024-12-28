@@ -57,7 +57,7 @@ Going forward
 
 I will start working at Dropbox (Seattle) in January 2017.
 
-I'm currently one of PowerShell [maintainers](https://github.com/PowerShell/PowerShell/tree/bfd6d654588da09dcb35850e8ea0609b05a2b5ed/docs/maintainers#current-repository-maintainers).
+I'm currently one of PowerShell maintainers.
 I will continue to be **maintainer**, as far as the team thinks I provide value as a maintainer and I have time for that.
 That would make me first **non-Microsoft**-employee-PowerShell-maintainer.
 I think it's a very healthy sign and shows that team treats its open-source projects with transparency and inclusiveness.

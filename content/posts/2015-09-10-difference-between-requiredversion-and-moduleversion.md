@@ -31,7 +31,7 @@ It can be one of two things:
 ## RequiredVersion vs ModuleVersion
 
 Why do we have two of them and what's the difference?
-I found [some info](https://technet.microsoft.com/en-us/%5Clibrary/Hh857339.aspx) in a release notes
+I found some info in a release notes
 
 > Windows PowerShell 5.0 implements support for multiple versions of a single Windows PowerShell module in the same folder in $PSModulePath. A RequiredVersion property has been added to the ModuleSpecification class to help you get the desired version of a module; this property is mutually-exclusive with the ModuleVersion property. RequiredVersion is now supported as part of the value of the FullyQualifiedName parameter of the Get-Module, Import-Module, and Remove-Module cmdlets.
 

@@ -48,7 +48,7 @@ They are mostly work as you expect!
 Documentation (`man`) is a good thing, but you can do things much faster with **intellisense**. 
 To bring intellisense use `Ctrl + Space`.
 
-Beneficial if you understand basics of [PowerShell **naming conventions**](http://msdn.microsoft.com/en-us/library/ms714428%28v=vs.85%29.aspx). 
+Beneficial if you understand basics of PowerShell **naming conventions**. 
 These conventions tremendously increase explorability. They are enforced by Microsoft and community for a good reason.
 Main convention: all commands names are verb-noun pairs.
 
@@ -63,7 +63,7 @@ Then I used intellisense to explore and specify command parameters.
 
 ### Explore available methods and properties in the pipeline
 
-[Pipeline](http://technet.microsoft.com/en-us/library/dd347728.aspx) is one of the most awesome things in PowerShell. 
+Pipeline is one of the most awesome things in PowerShell. 
 The basic idea: you **pass objects** (in fact .NET objects), **not text streams**. 
 Then you can call methods and properties on objects passed in the pipeline. 
 PowerShell can figure out a returned type of a command and use it to provide intellisense below in the pipeline.

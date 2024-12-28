@@ -54,9 +54,8 @@ It's possible to do with `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Ke
 
 ![Registry entry for ScancodeMap](/images/WindowsOnMac/RegistryScancodeMap.png)
 
-The date format is somewhat [straighforward](http://www.howtogeek.com/howto/windows-vista/disable-caps-lock-key-in-windows-vista/), 
-but it's binary and uses keys hex identifiers. 
-It's much easier to use [SharpKeys](https://sharpkeys.codeplex.com/) utility to do math and edit registry for you.
+The date format is somewhat straighforward, but it's binary and uses keys hex identifiers. 
+It's much easier to use [SharpKeys](https://github.com/randyrants/sharpkeys) utility to do math and edit registry for you.
 
 I recommend **swap** _Left Ctrl_ and _Win_ key (add the second entry), because _Win_ is part of some useful short cuts itself.
 It also bring start screen and I use it all the time for applications quick lunch. 
@@ -79,13 +78,13 @@ I want it to be the same as OS X: "&#8984;" `Tab`.
 But I cannot achive it with the same registry trick: it would conflict with my existing binding.
 We need a way to rebind **combinations**.
 
-I found the solution in [AutoHotKey](http://www.autohotkey.com/).
+I found the solution in [AutoHotKey](https://www.autohotkey.com/).
 I was particularly interested to try it out, since one of their tag-lines is "Fast scriptable desktop automation with hotkeys" (khm khm PowerShell).
 
 It's also an [open source project](https://github.com/AutoHotkey/AutoHotkey) with GPL license and [community](https://github.com/ahkscript),
-pretty [modern-looking website](http://www.autohotkey.com/),
+pretty [modern-looking website](https://www.autohotkey.com/),
 [sublime-text plugin](https://github.com/ahkscript/SublimeAutoHotkey),
-[solid documentation](http://ahkscript.org/docs/Hotkeys.htm);
+[solid documentation](https://www.autohotkey.com/docs/v1/Hotkeys.htm);
 it doesn't bag for donations (in fact there is no option for donate as far as I know).
 Not your archetypal [Windows ecosystem helper application](http://trackpad.powerplan7.com/).
 
@@ -96,7 +95,7 @@ I wrote this simple `.ahk` script to remap `Alt` `Tab` and `Alt` `F4`
 	
 	; Remap 'Command' + 'Tab' to be 'Alt' + 'Tab'
 	; this line require 'Run with UI Access': 
-	; http://www.autohotkey.com/board/topic/70449-enable-interaction-with-administrative-programs/
+	; https://www.autohotkey.com/board/topic/70449-enable-interaction-with-administrative-programs/
 	LControl & Tab::AltTab 
 	
 	; Remap 'Command' + 'Q' to 'Alt' + 'F4'
@@ -106,7 +105,7 @@ I wrote this simple `.ahk` script to remap `Alt` `Tab` and `Alt` `F4`
 	; Change language layout in Win 10
 	LControl & Space::Send #{Space}
 
-It turns out that to rebind `Alt` `Tab` on Windows 8.1 you need [a little bit more ceremony](http://www.autohotkey.com/board/topic/70449-enable-interaction-with-administrative-programs/).
+It turns out that to rebind `Alt` `Tab` on Windows 8.1 you need [a little bit more ceremony](https://www.autohotkey.com/board/topic/70449-enable-interaction-with-administrative-programs/).
 Once you done with _patching AutoHotKey.exe with AutoHotKey.exe_, 
 you can create a `.lnk` file in your `~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` directory to automatically run script on the system startup.
 

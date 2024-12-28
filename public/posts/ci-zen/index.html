@@ -7,9 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   
-  <meta name="description" content="">
+  
+  
 
-  <title>vors.me</title>
+  <title>ci zen</title>
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
@@ -79,10 +80,15 @@
 
   <link rel="stylesheet" href="/main.css">
   
+
+<link id="hl" rel="stylesheet" type="text/css" href="/hl-light.css" />
+
+
+
   
 </head>
 
-<body class="blog">
+<body class="post">
   
   <script>
     const theme = sessionStorage.getItem('theme');
@@ -157,72 +163,79 @@
 
 
 <div id="wrapper">
-  <main class="layout-list">
+  <div id="blank"></div>
+  <aside>
     
-    <div class="post-list">
+    
+    
+  </aside>
+  <main>
+    <div>
       
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;ci-zen&#x2F;">
-        <span>ci zen</span>
-        <span class="date">2024-12-28</span>
-      </a>
       
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;cross-platform-dotnet-libs-for-powershell&#x2F;">
-        <span>Cross Platform Dotnet Libs for Powershell</span>
-        <span class="date">2017-12-26</span>
-      </a>
       
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;choosing-programming-langiage-for-interview&#x2F;">
-        <span>Choosing Programming Language For Interview</span>
-        <span class="date">2017-06-18</span>
-      </a>
       
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;leaving-microsoft&#x2F;">
-        <span>Leaving Microsoft</span>
-        <span class="date">2016-11-20</span>
-      </a>
+      <div id="copy-cfg" style="display: none;" data-copy-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;" data-check-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M10.0007 15.1709L19.1931 5.97852L20.6073 7.39273L10.0007 17.9993L3.63672 11.6354L5.05093 10.2212L10.0007 15.1709Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;"></div>
       
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;new-github-pricing-policy&#x2F;">
-        <span>New GitHub pricing policy</span>
-        <span class="date">2016-05-11</span>
-      </a>
       
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;using-namespace-for-the-win&#x2F;">
-        <span>using namespace For The Win</span>
-        <span class="date">2015-09-13</span>
-      </a>
+      <article class="prose" data-backlink-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&lt;path d=&quot;M9.41421 8L18.0208 16.6066L16.6066 18.0208L8 9.41421V17H6V6H17V8H9.41421Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;">
+        <h1>ci zen</h1>
+        <div id="post-info">
+          <div id="date">
+            <span id="publish">2024-12-28</span>
+            </div>
+
+          
+
+          
+        </div>
+
+        
+        
+
+        
+
+        
+
+        
+          <p>I have been doing build and ci (continuous integration) related work for the last 4 years out of my ~12 years in the industry in the US. I did this at 2 different companies that shared some similarities and had some stark contrasts regarding their culture and aesthetics of software development practices.</p>
+<p>My focus has been mostly around python and ML, and on creating reasonable workflows for researchers to balance speed of iteration with general software engineering best practices.</p>
+<p>This winter break, I spent some time thinking about the principles that, in my opinion, help build systems with nice properties in this domain.</p>
+<p>This list is very much inspired by <a rel="nofollow noreferrer" href="https://peps.python.org/pep-0020/">pep 20: the zen of python</a> as you can guess from the title of the post.</p>
+<pre data-lang="txt" class="language-txt z-code"><code class="language-txt" data-lang="txt"><span class="z-text z-plain">simple is better than complex
+</span><span class="z-text z-plain">versatile is better than specific
+</span><span class="z-text z-plain">pragmatic is better than versatile
+</span><span class="z-text z-plain">infrastructure should be boring
+</span><span class="z-text z-plain">stable abstractions are valuable
+</span><span class="z-text z-plain">people being able to unblock themselves is important but hard to capture in metrics
+</span><span class="z-text z-plain">python is ok
+</span><span class="z-text z-plain">ugly code that we shipped last week is better than perfect code we will ship next month
+</span><span class="z-text z-plain">one team&#39;s velocity should not be penalized because of another team&#39;s code without consent
+</span></code></pre>
+
+        
+      </article>
+
       
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;difference-between-requiredversion-and-moduleversion&#x2F;">
-        <span>Difference between RequiredVersion and ModuleVersion</span>
-        <span class="date">2015-09-10</span>
-      </a>
       
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;make-work-in-windows-on-mac-a-joy&#x2F;">
-        <span>Make work in Windows on Mac a joy</span>
-        <span class="date">2015-06-21</span>
-      </a>
+
       
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;how-to-start-with-powershell&#x2F;">
-        <span>How to start with PowerShell</span>
-        <span class="date">2014-12-03</span>
-      </a>
-      
-      <a class="post instant " href="https:&#x2F;&#x2F;vors.me&#x2F;posts&#x2F;douglas-coupland-microserfs&#x2F;">
-        <span>Douglas Coupland - Microserfs</span>
-        <span class="date">2014-09-17</span>
-      </a>
       
     </div>
-    
-  </main>
-  <footer>
+
+    <footer>
   <div class="copyright">
     
   </div>
   
 </footer>
+  </main>
 </div>
 
   
+<script src="/js/lightense.min.js"></script>
+
+
   <script src="/js/main.js"></script>
 </body>
 

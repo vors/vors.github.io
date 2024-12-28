@@ -4,8 +4,6 @@ title: "Make work in Windows on Mac a joy"
 date: 2015-06-21
 ---
 
-{% assign command_key = "&#8984;" %}
-
 Preambula
 ----------------------
 
@@ -46,9 +44,9 @@ Short cuts
 
 **Goal**: rebind keyboard to use standart Mac shortcuts.
 
-After installing Windows on Mac via bootcamp, _**Command**_ ({{ command_key }}) key becomes _**Win**_ key.
+After installing Windows on Mac via bootcamp, _**Command**_ ("&#8984;") key becomes _**Win**_ key.
 It totally makes sense ... for somebody who never work on Mac.
-Most essential Mac short cuts (copy / paste, close program, change keyboard layout) use {{ command_key }}.
+Most essential Mac short cuts (copy / paste, close program, change keyboard layout) use "&#8984;".
 
 First requirement: **rebind _Win_ key to _Left Ctrl_ key**.
 
@@ -67,9 +65,9 @@ It also bring start screen and I use it all the time for applications quick lunc
 
 We are already in a pretty good shape: 
 
--   {{ command_key }} `C` / {{ command_key }} `V` (copy / paste).
--   {{ command_key }} `1` / {{ command_key }} `2` / {{ command_key }} `3` (to select tab in a browser).
--   {{ command_key }} `W` (to close tab).
+-   "&#8984;" `C` / "&#8984;" `V` (copy / paste).
+-   "&#8984;" `1` / "&#8984;" `2` / "&#8984;" `3` (to select tab in a browser).
+-   "&#8984;" `W` (to close tab).
 
 already work as expected.    
 
@@ -77,7 +75,7 @@ Better short cuts
 ===============
 
 One thing that I found extremely annoying is `Alt` `Tab`.
-I want it to be the same as OS X: {{ command_key }} `Tab`.
+I want it to be the same as OS X: "&#8984;" `Tab`.
 But I cannot achive it with the same registry trick: it would conflict with my existing binding.
 We need a way to rebind **combinations**.
 

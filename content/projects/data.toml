@@ -1,0 +1,17 @@
+[[project]]
+name = "powershell"
+desc = "powershell is a cross-platform automation and configuration tool. i used to be a powershell maintainer with the focus on language, compiler, and engine."
+tags = []
+img = ""
+links = [
+  { name = "github", url = "https://github.com/PowerShell/PowerShell" },
+]
+
+[[project]]
+name = "platyps"
+desc = "provides a way to write powershell external help in markdown. i created platyps as a hackathon project."
+tags = []
+img = ""
+links = [
+  { name = "github", url = "https://github.com/PowerShell/platyPS" },
+]

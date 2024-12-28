@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Leaving Microsoft"
-date: 2016-11-20T22:02:07-08:00
+date: 2016-11-20
 ---
 
 November 18th, 2016 was my last day at Microsoft.

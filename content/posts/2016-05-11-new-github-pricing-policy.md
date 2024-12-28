@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New GitHub pricing policy"
-date: 2016-05-11 10:00:00 -0700
+date: 2016-05-11
 categories: [github]
 ---
 

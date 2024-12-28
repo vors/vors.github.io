@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cross Platform Dotnet Libs for Powershell"
-date: 2017-12-26T19:41:00-08:00
+date: 2017-12-26
 ---
 
 Let’s say you want to use some dotnet dll in your powershell module.

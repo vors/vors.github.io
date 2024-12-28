@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Track only few folders in your git repo"
-date: 2013-01-17 21:02
+date: 2013-01-17
 categories: [git, gitignore, challenge]
 ---
 

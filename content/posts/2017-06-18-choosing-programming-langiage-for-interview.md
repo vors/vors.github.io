@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Choosing Programming Language For Interview"
-date: 2017-06-18T14:24:08-08:00
+date: 2017-06-18
 ---
 
 I did a round of interviews in different companies for Software Engineer position in the end of 2016 and though it's a good idea to share my experience.

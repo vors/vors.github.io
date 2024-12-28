@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Douglas Coupland - Microserfs"
-date: 2014-09-17 23:54:22 -0700
+date: 2014-09-17
 categories: [life, books, microsoft]
 ---
 

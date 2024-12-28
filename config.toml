@@ -42,14 +42,14 @@ anchors = "on"
 name = "xxxx"
 id = "xxxx"
 bio = "xxxx"
-avatar = "img/avatar.webp"
+# avatar = "img/avatar.webp"
 
 display_id = true
 display_bio = true
 display_avatar = true
 
-recent = false
-recent_max = 5
+recent = true
+recent_max = 1000000
 recent_more_text = "more »"
 
 sections = [

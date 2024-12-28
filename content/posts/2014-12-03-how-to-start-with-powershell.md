@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to start with PowerShell"
-date: 2014-12-03 01:04:21 -0800
+date: 2014-12-03
 categories: [powershell, ise, j]
 ---
 

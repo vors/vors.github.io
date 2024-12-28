@@ -5,4 +5,4 @@ template = 'home.html'
 lang = 'en'
 +++
 
-<!-- Words about you -->
+sergei's hot takes. mostly software. sometimes life.

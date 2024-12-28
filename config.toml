@@ -6,10 +6,11 @@
 #=========================================================================================
 
 base_url = "https://vors.me"      # Domain name of your website
-title = "vors"
-description = "description TODO"
+title = ""
+description = ""
 default_language = "en"
-theme = "serene"
+# this is based on the v4.5.0, commit 60adfbbc25d027649ee13002aa401f55c8254206
+theme = "serene-customized"
 output_dir = "public"
 compile_sass = true
 minify_html = true
@@ -39,29 +40,29 @@ anchors = "on"
 
 [extra]
 
-name = "xxxx"
-id = "xxxx"
-bio = "xxxx"
+name = ""
+id = "vors.me"
+# bio = "xxxx"
 # avatar = "img/avatar.webp"
 
-display_id = true
-display_bio = true
-display_avatar = true
+display_id = false
+display_bio = false
+display_avatar = false
 
-recent = true
-recent_max = 1000000
-recent_more_text = "more »"
+recent = false
+# recent_max = 1000000
+# recent_more_text = "more »"
 
 sections = [
     { name = "posts", path = "/posts", is_external = false },
     # { name = "projects", path = "/projects", is_external = false },
     # { name = "about", path = "/about", is_external = false },
-    # { name = "github", path = "https://github.com/<your-username>", is_external = true },
+    # { name = "github", path = "https://github.com/vors", is_external = true },
 ]
 blog_section_path = "/posts"
 
 links = [
-    { name = "GitHub", icon = "github", url = "https://github.com/<your-username>" },
+    { name = "GitHub", icon = "github", url = "https://github.com/vors/vors.github.io" },
     # { name = "Twitter", icon = "twitter", url = "https://twitter.com/<your-username>" },
     # { name = "Email", icon = "email", url = "mailto:<your-email-address>" },
 ]
@@ -91,7 +92,8 @@ nav_wrapper_right = "} ;"
 nav_wrapper_separator = ","
 
 footer_copyright = ""
-footer_credits = true                 # Whether to show "powered by zola and serene" in footer
+# sorry, I'd love to display that, but it looks ugly at the moment
+footer_credits = false                # Whether to show "powered by zola and serene" in footer
 
 not_found_title = "404"
 not_found_error_text = "Not Found"

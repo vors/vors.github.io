@@ -2,6 +2,7 @@
 title: "aesthetic over vision"
 date: 2025-01-07
 categories: []
+aliases: ["esthetics"]
 ---
 
 Over the years, I've grown to dislike the word "vision" in the context of software development.

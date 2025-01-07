@@ -10,6 +10,10 @@
         <loc>https://vors.me/posts/</loc>
     </url>
     <url>
+        <loc>https://vors.me/posts/aesthetic/</loc>
+        <lastmod>2025-01-07</lastmod>
+    </url>
+    <url>
         <loc>https://vors.me/posts/choosing-programming-langiage-for-interview/</loc>
         <lastmod>2017-06-18</lastmod>
     </url>
@@ -28,10 +32,6 @@
     <url>
         <loc>https://vors.me/posts/douglas-coupland-microserfs/</loc>
         <lastmod>2014-09-17</lastmod>
-    </url>
-    <url>
-        <loc>https://vors.me/posts/esthetics/</loc>
-        <lastmod>2025-01-07</lastmod>
     </url>
     <url>
         <loc>https://vors.me/posts/how-to-start-with-powershell/</loc>

@@ -1,5 +1,5 @@
 ---
-title: "esthetics over vision"
+title: "aesthetic over vision"
 date: 2025-01-07
 categories: []
 ---
@@ -11,7 +11,7 @@ People often use terms like "vision" and "north star" to describe documents that
 There's another category of verbal creativity that could be grouped under "principles" or "philosophy."
 I find that far more tolerable -- hell, I even [wrote](/posts/ci-zen) in this genre!
 
-Recently, I've formulated a different language for myself, one centered around an even more elusive concept -- esthetics.
+Recently, I've formulated a different language for myself, one centered around an even more elusive concept -- aesthetic.
 It's something that's hard to capture in any kind of document, and that's partly the point of using this language.
 It exists in minds and between minds.
 It informs, evolves, and updates itself.
@@ -26,4 +26,4 @@ And there's more that I don't want to explicitly spell out -- I’m sure many pe
 Another related insight I've taken from conversations with friends is that it's probably better to strive to be an example rather than try to "scale yourself" through some soulless document.
 That's my current thinking, and I find it liberating.
 
-esthetics > vision.
+aesthetic > vision.
